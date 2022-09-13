@@ -1,6 +1,6 @@
 <body>
     <div class="container">
-        <button type="button" class="btn">
+        <button routerLink="/add" type="button" class="btn" >
           Add new record
         </button>
       
@@ -15,11 +15,27 @@
         </div>
       
         <form class="search-form">
-          <input type="text" class="search">
-          <button class="search-button" type="submit" aria-label="Search">Search</button>
+          <input type="text" class="search" [(ngModel)]="filterText">
+                  
+          <div class="search-result"> 
+            <div class="result" *ngFor="let item of data | filter:filterText">
+                <div class="box">
+                    <!-- <img src="../assets/img/konum.png" alt="">
+                    <div>{{item.city}}, {{item.country}}</div> -->
+                    <div class="box1"><img src="../assets/img/konum.png" alt=""></div>
+                    <div class="box2" style="font-weight: bold; font: size 10px;">{{item.name}}</div>
+                    <div class="box2">{{item.email}}</div>
+                </div>
+                <hr>
+                
+            </div>
+           
+            
+        </div>
+        <button class="search-button" type="submit" aria-label="Search">Search</button>
         </form>
       
-        <div class="search-result"></div>
+
       
         <h2>Top News</h2>
       
@@ -74,14 +90,6 @@
           </div>
       
       </div>
-    
-    <script>
-    $('.multiple-items').slick({
-        infinite: false,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-          </script>
 </body>
 
 

@@ -1,0 +1,128 @@
+.teso-img {
+    position: absolute;
+    float: left;
+    width: 149px;
+    height: 63px;
+    left: 37px;
+    top: 27px;
+}
+
+.arrow{
+    cursor: pointer;
+}
+
+.arrow img {
+    position: relative;
+    width: 26px;
+    left: 221px;
+    top: 43px;
+    border: #484848;
+}
+
+.arrow p {
+    position: absolute;
+    width: 220px;
+    height: 31px;
+    left: 263px;
+    top: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #484848;
+}
+
+label {
+    position: absolute;
+    width: 207px;
+    height: 26px;
+    left: 291px;
+    top: 155px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #686868;
+}
+input {
+    position: absolute;
+    width: 590px;
+    height: 46px;
+    left: 285px;
+    padding-left: 15px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #484848;
+    border-radius: 12px;
+
+}
+
+input:hover {
+    background: rgba(100, 100, 100, 0.08);
+}
+
+button{
+    position: absolute;
+    width: 138px;
+    height: 46px;
+    left: 734px;
+    top: 642px;
+
+    background: #4F75C2;
+    border-radius: 12px;
+    border: none;
+}
+
+button p {
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px; */
+}
+
+.ng-touched.ng-invalid {
+    border: 2.5px solid #FF0000;
+}
+
+.alert{
+    position: relative;
+    width: 375px;
+    height: 123px;
+    left: 1088px;
+    top: 523px;
+    padding: 15px 15px;
+
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+
+.error {
+    position: relative;
+    height: 32px;
+    width: 70px;
+    left: 191px;
+    top: -79px;
+    border-radius: 48px;
+    padding: 8px 16px 8px 16px;
+    background: #FF4E78;
+
+
+}
+
+.error p {
+    position: relative;
+    color: #FFFFFF;
+    top: -12px;
+    left: 14px;
+}
