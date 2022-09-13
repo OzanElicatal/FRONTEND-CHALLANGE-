@@ -95,7 +95,7 @@ button p {
     border: 2.5px solid #FF0000;
 }
 
-.alert{
+/* .alert{
     position: relative;
     width: 375px;
     height: 123px;
@@ -105,9 +105,9 @@ button p {
 
     background: #C4C4C4;
     border-radius: 8px;
-}
+} */
 
-.error {
+/* .error {
     position: relative;
     height: 32px;
     width: 70px;
@@ -118,11 +118,11 @@ button p {
     background: #FF4E78;
 
 
-}
+} */
 
-.error p {
+/* .error p {
     position: relative;
     color: #FFFFFF;
     top: -12px;
     left: 14px;
-}
+} */
